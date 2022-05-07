@@ -10,7 +10,7 @@ export class AddTutorialComponent implements OnInit {
   tutorial: Tutorial = {
     title: '',
     description: '',
-    published: false
+    published: true
   };
   submitted = false;
   constructor(private tutorialService: TutorialService) { }
